@@ -1,0 +1,2256 @@
+[
+  {
+    "id": "q1",
+    "category": "DISCIPLINE & TIME MANAGEMENT",
+    "situation": "It’s Monday. You find out you have a project due next Monday. No one will check your progress until the deadline. What usually happens?",
+    "options": [
+      {
+        "id": "A",
+        "text": "You start almost immediately and try to get most of it done early",
+        "scores": {
+          "discipline_and_time_management": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "You plan it out and work on it a bit each day",
+        "scores": {
+          "discipline_and_time_management": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "You do some work early, then really focus near the end",
+        "scores": {
+          "discipline_and_time_management": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "You mostly wait until the deadline feels “real”",
+        "scores": {
+          "discipline_and_time_management": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "You rush everything the night before",
+        "scores": {
+          "discipline_and_time_management": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "You try to get more time or reduce what’s expected",
+        "scores": {
+          "discipline_and_time_management": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q2",
+    "category": "DISCIPLINE & TIME MANAGEMENT",
+    "situation": "You wake up tired. No deadlines, no one pushing you, nothing urgent. What do you actually do?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Stick to your routine anyway",
+        "scores": {
+          "discipline_and_time_management": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "Do the important stuff, then rest",
+        "scores": {
+          "discipline_and_time_management": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "Only do small or easy tasks",
+        "scores": {
+          "discipline_and_time_management": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Keep telling yourself you’ll do it later",
+        "scores": {
+          "discipline_and_time_management": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "Take the whole day off and don’t stress about it",
+        "scores": {
+          "discipline_and_time_management": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "Avoid everything but feel guilty the whole time",
+        "scores": {
+          "discipline_and_time_management": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q3",
+    "category": "DISCIPLINE & TIME MANAGEMENT",
+    "situation": "You make a plan for your week, but no one will ever check if you follow it. What happens to that plan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "You follow it pretty closely",
+        "scores": {
+          "discipline_and_time_management": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "You follow it but change a few things",
+        "scores": {
+          "discipline_and_time_management": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "You drop it halfway through",
+        "scores": {
+          "discipline_and_time_management": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "You ignore it almost immediately",
+        "scores": {
+          "discipline_and_time_management": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "You work based on how you feel that day",
+        "scores": {
+          "discipline_and_time_management": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "You keep changing the plan instead of actually working",
+        "scores": {
+          "discipline_and_time_management": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q4",
+    "category": "STRESS TOLERANCE",
+    "situation": "The night before an important deadline, something goes wrong and half your work is unusable. Your first reaction is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Stay calm and figure out what can be fixed",
+        "scores": {
+          "stress_tolerance": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "Panic for a bit, then push through",
+        "scores": {
+          "stress_tolerance": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "Feel overwhelmed but keep working",
+        "scores": {
+          "stress_tolerance": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Shut down for a while before restarting",
+        "scores": {
+          "stress_tolerance": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "Give up on doing it properly",
+        "scores": {
+          "stress_tolerance": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "Avoid it completely (sleep, scroll, ignore it)",
+        "scores": {
+          "stress_tolerance": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q5",
+    "category": "STRESS TOLERANCE",
+    "situation": "You’re asked to do something important in front of people, and you didn’t really prepare. What happens?",
+    "options": [
+      {
+        "id": "A",
+        "text": "You stay focused and do okay",
+        "scores": {
+          "stress_tolerance": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "You’re nervous but manage",
+        "scores": {
+          "stress_tolerance": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "You mess up more than usual",
+        "scores": {
+          "stress_tolerance": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Your mind goes blank",
+        "scores": {
+          "stress_tolerance": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "You try to avoid doing it",
+        "scores": {
+          "stress_tolerance": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "You get irritated or defensive",
+        "scores": {
+          "stress_tolerance": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q6",
+    "category": "STRESS TOLERANCE",
+    "situation": "A bunch of small things start happening at once: messages, tasks, interruptions. How do you react?",
+    "options": [
+      {
+        "id": "A",
+        "text": "You ignore distractions and focus",
+        "scores": {
+          "stress_tolerance": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "You deal with things one by one",
+        "scores": {
+          "stress_tolerance": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "You feel stressed but keep going",
+        "scores": {
+          "stress_tolerance": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "You lose focus quickly",
+        "scores": {
+          "stress_tolerance": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "You stop being productive",
+        "scores": {
+          "stress_tolerance": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "You get annoyed or angry",
+        "scores": {
+          "stress_tolerance": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q7",
+    "category": "LOGIC VS INTUITION",
+    "situation": "You’re trying to solve a problem. One solution makes sense but takes time. The other feels right, but you can’t fully explain why. What do you do?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Go with the one that clearly makes sense",
+        "scores": {
+          "logic_vs_intuition": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "Start logically, then adjust based on feeling",
+        "scores": {
+          "logic_vs_intuition": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "Try both a little and see what works",
+        "scores": {
+          "logic_vs_intuition": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Trust the feeling and fix things later",
+        "scores": {
+          "logic_vs_intuition": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "Pick whatever feels less tiring",
+        "scores": {
+          "logic_vs_intuition": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "Ask someone else what they’d do",
+        "scores": {
+          "logic_vs_intuition": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q8",
+    "category": "LOGIC VS INTUITION",
+    "situation": "You have a bad feeling about something, but you don’t have proof. What do you do?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dig deeper until you’re sure",
+        "scores": {
+          "logic_vs_intuition": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "Keep the feeling in mind but move on",
+        "scores": {
+          "logic_vs_intuition": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "Act more carefully just in case",
+        "scores": {
+          "logic_vs_intuition": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Fully trust the feeling",
+        "scores": {
+          "logic_vs_intuition": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "Ignore it",
+        "scores": {
+          "logic_vs_intuition": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "Ask others if they feel the same",
+        "scores": {
+          "logic_vs_intuition": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q9",
+    "category": "LOGIC VS INTUITION",
+    "situation": "Someone explains something very emotionally, but it doesn’t really make sense. You usually:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Point out what doesn’t make sense",
+        "scores": {
+          "logic_vs_intuition": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "Listen, but stay unconvinced",
+        "scores": {
+          "logic_vs_intuition": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "Accept it if it feels reasonable",
+        "scores": {
+          "logic_vs_intuition": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Focus more on how people feel than the facts",
+        "scores": {
+          "logic_vs_intuition": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "Tune out",
+        "scores": {
+          "logic_vs_intuition": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "Agree just to avoid tension",
+        "scores": {
+          "logic_vs_intuition": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q10",
+    "category": "RISK TOLERANCE",
+    "situation": "You can choose between: A safe option with average results A risky option with much higher potential What do you usually choose?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The safe option",
+        "scores": {
+          "risk_tolerance": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "Safe unless the reward is really high",
+        "scores": {
+          "risk_tolerance": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "Depends on how bad failing would be",
+        "scores": {
+          "risk_tolerance": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "The risky option if you believe in yourself",
+        "scores": {
+          "risk_tolerance": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "The risky option even if it might fail",
+        "scores": {
+          "risk_tolerance": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "You delay choosing as long as possible",
+        "scores": {
+          "risk_tolerance": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q11",
+    "category": "RISK TOLERANCE",
+    "situation": "You take a risk and fail publicly. What’s your reaction?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Figure out what went wrong and try again",
+        "scores": {
+          "risk_tolerance": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "Feel bad, but try again later",
+        "scores": {
+          "risk_tolerance": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "Hesitate before taking risks again",
+        "scores": {
+          "risk_tolerance": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Avoid similar risks after that",
+        "scores": {
+          "risk_tolerance": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "Blame the situation",
+        "scores": {
+          "risk_tolerance": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "Give up on that thing entirely",
+        "scores": {
+          "risk_tolerance": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q12",
+    "category": "RISK TOLERANCE",
+    "situation": "You see others succeed by taking risks you avoided. How do you feel?",
+    "options": [
+      {
+        "id": "A",
+        "text": "You rethink your strategy",
+        "scores": {
+          "risk_tolerance": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "Motivated to try next time",
+        "scores": {
+          "risk_tolerance": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "Neutral",
+        "scores": {
+          "risk_tolerance": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Regretful",
+        "scores": {
+          "risk_tolerance": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "Glad you played it safe",
+        "scores": {
+          "risk_tolerance": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "Discouraged",
+        "scores": {
+          "risk_tolerance": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q13",
+    "category": "AUTONOMY VS GUIDANCE",
+    "situation": "You’re given a task, but the instructions are very vague. What do you do first?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ask for very clear instructions",
+        "scores": {
+          "autonomy_vs_guidance": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "Ask a few questions, then start",
+        "scores": {
+          "autonomy_vs_guidance": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "Start working and adjust later",
+        "scores": {
+          "autonomy_vs_guidance": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Decide your own way and stick to it",
+        "scores": {
+          "autonomy_vs_guidance": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "Do the bare minimum and wait",
+        "scores": {
+          "autonomy_vs_guidance": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "Don’t start until it’s clearer",
+        "scores": {
+          "autonomy_vs_guidance": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q14",
+    "category": "AUTONOMY VS GUIDANCE",
+    "situation": "You’re learning something new with no teacher or guide. What happens?",
+    "options": [
+      {
+        "id": "A",
+        "text": "You make your own plan and follow it",
+        "scores": {
+          "autonomy_vs_guidance": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "You follow tutorials step by step",
+        "scores": {
+          "autonomy_vs_guidance": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "You experiment randomly",
+        "scores": {
+          "autonomy_vs_guidance": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "You feel lost without structure",
+        "scores": {
+          "autonomy_vs_guidance": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "You procrastinate starting",
+        "scores": {
+          "autonomy_vs_guidance": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "You look for someone to guide you",
+        "scores": {
+          "autonomy_vs_guidance": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q15",
+    "category": "AUTONOMY VS GUIDANCE",
+    "situation": "Someone keeps telling you exactly how to do your work. How do you feel?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Supported",
+        "scores": {
+          "autonomy_vs_guidance": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "Fine with it",
+        "scores": {
+          "autonomy_vs_guidance": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "You ignore some of it",
+        "scores": {
+          "autonomy_vs_guidance": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Restricted",
+        "scores": {
+          "autonomy_vs_guidance": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "Frustrated",
+        "scores": {
+          "autonomy_vs_guidance": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "You mentally check out or resist",
+        "scores": {
+          "autonomy_vs_guidance": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q16",
+    "category": "SOCIAL ENERGY",
+    "situation": "After a long day, what helps you recharge most?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Being completely alone",
+        "scores": {
+          "social_energy": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "Quiet time around others",
+        "scores": {
+          "social_energy": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "Talking to one close person",
+        "scores": {
+          "social_energy": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Hanging out with a small group",
+        "scores": {
+          "social_energy": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "Being in a lively social setting",
+        "scores": {
+          "social_energy": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "It really depends on the day",
+        "scores": {
+          "social_energy": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q17",
+    "category": "SOCIAL ENERGY",
+    "situation": "You’re put into a group where you don’t know anyone. What happens?",
+    "options": [
+      {
+        "id": "A",
+        "text": "You start conversations",
+        "scores": {
+          "social_energy": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "You warm up after a bit",
+        "scores": {
+          "social_energy": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "You talk only when needed",
+        "scores": {
+          "social_energy": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "You mostly observe",
+        "scores": {
+          "social_energy": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "You feel drained quickly",
+        "scores": {
+          "social_energy": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "You mentally disengage",
+        "scores": {
+          "social_energy": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q18",
+    "category": "SOCIAL ENERGY",
+    "situation": "After several days of social interaction, you feel:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Energized",
+        "scores": {
+          "social_energy": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "Fine",
+        "scores": {
+          "social_energy": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "A bit tired",
+        "scores": {
+          "social_energy": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Very drained",
+        "scores": {
+          "social_energy": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "Irritable",
+        "scores": {
+          "social_energy": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "Overstimulated",
+        "scores": {
+          "social_energy": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q19",
+    "category": "ADAPTABILITY & CONTROL",
+    "situation": "You carefully planned your day. Suddenly, plans change. How do you react?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Adjust quickly",
+        "scores": {
+          "adaptability_and_control": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "Adjust but feel stressed",
+        "scores": {
+          "adaptability_and_control": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "Don’t really care",
+        "scores": {
+          "adaptability_and_control": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Feel relieved",
+        "scores": {
+          "adaptability_and_control": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "Lose motivation",
+        "scores": {
+          "adaptability_and_control": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "Stick to the original plan anyway",
+        "scores": {
+          "adaptability_and_control": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q20",
+    "category": "ADAPTABILITY & CONTROL",
+    "situation": "You’re forced to work in a way you didn’t choose. What happens?",
+    "options": [
+      {
+        "id": "A",
+        "text": "You adapt easily",
+        "scores": {
+          "adaptability_and_control": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "You adapt but feel tense",
+        "scores": {
+          "adaptability_and_control": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "You tolerate it for a while",
+        "scores": {
+          "adaptability_and_control": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "You resist internally",
+        "scores": {
+          "adaptability_and_control": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "You lose motivation",
+        "scores": {
+          "adaptability_and_control": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "You try to regain control",
+        "scores": {
+          "adaptability_and_control": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q21",
+    "category": "RESPONSIBILITY & LEADERSHIP",
+    "situation": "You’re in a group project. Your part is done, but others are behind. What do you do?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Help them finish",
+        "scores": {
+          "responsibility_and_leadership": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "Help only if asked",
+        "scores": {
+          "responsibility_and_leadership": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "Remind them once, then stop",
+        "scores": {
+          "responsibility_and_leadership": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Focus only on your part",
+        "scores": {
+          "responsibility_and_leadership": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "Get annoyed and disengage",
+        "scores": {
+          "responsibility_and_leadership": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "Take control to make sure it gets done",
+        "scores": {
+          "responsibility_and_leadership": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q22",
+    "category": "RESPONSIBILITY & LEADERSHIP",
+    "situation": "Everyone is confused, and no leader is assigned. What happens?",
+    "options": [
+      {
+        "id": "A",
+        "text": "You naturally take charge",
+        "scores": {
+          "responsibility_and_leadership": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "You help organize without leading",
+        "scores": {
+          "responsibility_and_leadership": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "You focus on your own task",
+        "scores": {
+          "responsibility_and_leadership": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "You wait for instructions",
+        "scores": {
+          "responsibility_and_leadership": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "You disengage",
+        "scores": {
+          "responsibility_and_leadership": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "You challenge others",
+        "scores": {
+          "responsibility_and_leadership": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q23",
+    "category": "RESPONSIBILITY & LEADERSHIP",
+    "situation": "You have free time and no obligations. What do you naturally feel like doing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Something physical or active",
+        "scores": {
+          "responsibility_and_leadership": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "Moving a bit, then resting",
+        "scores": {
+          "responsibility_and_leadership": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "Something practical with your hands",
+        "scores": {
+          "responsibility_and_leadership": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Something that makes you think",
+        "scores": {
+          "responsibility_and_leadership": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "Watching or consuming content",
+        "scores": {
+          "responsibility_and_leadership": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "Doing as little as possible",
+        "scores": {
+          "responsibility_and_leadership": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q24",
+    "category": "RESPONSIBILITY & LEADERSHIP",
+    "situation": "You’ve been sitting and focusing for hours. How do you feel?",
+    "options": [
+      {
+        "id": "A",
+        "text": "You really want to move",
+        "scores": {
+          "responsibility_and_leadership": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "Slightly restless",
+        "scores": {
+          "responsibility_and_leadership": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "Fine staying seated",
+        "scores": {
+          "responsibility_and_leadership": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Mentally tired, not physically",
+        "scores": {
+          "responsibility_and_leadership": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "Drained overall",
+        "scores": {
+          "responsibility_and_leadership": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "You lose focus completely",
+        "scores": {
+          "responsibility_and_leadership": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q25",
+    "category": "RESPONSIBILITY & LEADERSHIP",
+    "situation": "You’re asked to learn something new. What feels easier to start with?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Doing it physically",
+        "scores": {
+          "responsibility_and_leadership": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "Watching someone do it",
+        "scores": {
+          "responsibility_and_leadership": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "Trying and adjusting",
+        "scores": {
+          "responsibility_and_leadership": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Reading or thinking about it",
+        "scores": {
+          "responsibility_and_leadership": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "Following clear steps",
+        "scores": {
+          "responsibility_and_leadership": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "You struggle to start",
+        "scores": {
+          "responsibility_and_leadership": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q26",
+    "category": "RESPONSIBILITY & LEADERSHIP",
+    "situation": "You enjoy activities more when:",
+    "options": [
+      {
+        "id": "A",
+        "text": "You can see, touch, or feel results",
+        "scores": {
+          "responsibility_and_leadership": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "You can hear or sense progress",
+        "scores": {
+          "responsibility_and_leadership": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "There’s a clear end result",
+        "scores": {
+          "responsibility_and_leadership": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "It’s about ideas and concepts",
+        "scores": {
+          "responsibility_and_leadership": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "It’s about understanding “why”",
+        "scores": {
+          "responsibility_and_leadership": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "It’s mostly theoretical",
+        "scores": {
+          "responsibility_and_leadership": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q27",
+    "category": "RESPONSIBILITY & LEADERSHIP",
+    "situation": "You finish something. What feels most satisfying?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Seeing the final result",
+        "scores": {
+          "responsibility_and_leadership": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "Feeling the process was enjoyable",
+        "scores": {
+          "responsibility_and_leadership": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "Knowing it works",
+        "scores": {
+          "responsibility_and_leadership": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Understanding how it works",
+        "scores": {
+          "responsibility_and_leadership": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "Knowing you learned something",
+        "scores": {
+          "responsibility_and_leadership": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "Just being done",
+        "scores": {
+          "responsibility_and_leadership": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q28",
+    "category": "RESPONSIBILITY & LEADERSHIP",
+    "situation": "You’re learning something that’s very abstract. Your reaction is usually:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Curious and interested",
+        "scores": {
+          "responsibility_and_leadership": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "Interested but mentally tired",
+        "scores": {
+          "responsibility_and_leadership": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "Neutral",
+        "scores": {
+          "responsibility_and_leadership": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Slightly confused",
+        "scores": {
+          "responsibility_and_leadership": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "Frustrated",
+        "scores": {
+          "responsibility_and_leadership": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "You lose interest",
+        "scores": {
+          "responsibility_and_leadership": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q29",
+    "category": "RESPONSIBILITY & LEADERSHIP",
+    "situation": "You’re starting a task. What helps you most?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Clear instructions and steps",
+        "scores": {
+          "responsibility_and_leadership": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "A general outline",
+        "scores": {
+          "responsibility_and_leadership": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "A goal, but freedom in how",
+        "scores": {
+          "responsibility_and_leadership": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Total freedom",
+        "scores": {
+          "responsibility_and_leadership": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "Trial and error",
+        "scores": {
+          "responsibility_and_leadership": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "Nothing really helps",
+        "scores": {
+          "responsibility_and_leadership": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q30",
+    "category": "RESPONSIBILITY & LEADERSHIP",
+    "situation": "You’re told: “Do it however you want.” You feel:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Excited",
+        "scores": {
+          "responsibility_and_leadership": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "Interested but unsure",
+        "scores": {
+          "responsibility_and_leadership": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "Neutral",
+        "scores": {
+          "responsibility_and_leadership": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Slightly stressed",
+        "scores": {
+          "responsibility_and_leadership": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "Lost",
+        "scores": {
+          "responsibility_and_leadership": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "Annoyed",
+        "scores": {
+          "responsibility_and_leadership": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q31",
+    "category": "RESPONSIBILITY & LEADERSHIP",
+    "situation": "You’re following a strict method. How do you feel?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Comfortable",
+        "scores": {
+          "responsibility_and_leadership": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "Fine",
+        "scores": {
+          "responsibility_and_leadership": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "Slightly constrained",
+        "scores": {
+          "responsibility_and_leadership": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Bored",
+        "scores": {
+          "responsibility_and_leadership": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "Frustrated",
+        "scores": {
+          "responsibility_and_leadership": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "You want to break the rules",
+        "scores": {
+          "responsibility_and_leadership": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q32",
+    "category": "RESPONSIBILITY & LEADERSHIP",
+    "situation": "You’re working on something. What matters more to you?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Expressing ideas or feelings",
+        "scores": {
+          "responsibility_and_leadership": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "Making something unique",
+        "scores": {
+          "responsibility_and_leadership": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "Doing it well",
+        "scores": {
+          "responsibility_and_leadership": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Making it efficient",
+        "scores": {
+          "responsibility_and_leadership": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "Improving how it works",
+        "scores": {
+          "responsibility_and_leadership": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "Just finishing",
+        "scores": {
+          "responsibility_and_leadership": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q33",
+    "category": "RESPONSIBILITY & LEADERSHIP",
+    "situation": "Someone sees your work. What reaction do you care about most?",
+    "options": [
+      {
+        "id": "A",
+        "text": "“This feels like you”",
+        "scores": {
+          "responsibility_and_leadership": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "“This is creative”",
+        "scores": {
+          "responsibility_and_leadership": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "“This works well”",
+        "scores": {
+          "responsibility_and_leadership": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "“This is smart”",
+        "scores": {
+          "responsibility_and_leadership": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "“This saves time/money”",
+        "scores": {
+          "responsibility_and_leadership": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "You don’t really care",
+        "scores": {
+          "responsibility_and_leadership": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q34",
+    "category": "RESPONSIBILITY & LEADERSHIP",
+    "situation": "You notice something inefficient. You usually:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Want to redesign it",
+        "scores": {
+          "responsibility_and_leadership": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "Think about how to improve it",
+        "scores": {
+          "responsibility_and_leadership": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "Accept it",
+        "scores": {
+          "responsibility_and_leadership": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Feel mildly annoyed",
+        "scores": {
+          "responsibility_and_leadership": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "Ignore it",
+        "scores": {
+          "responsibility_and_leadership": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "Feel drained",
+        "scores": {
+          "responsibility_and_leadership": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q35",
+    "category": "RESPONSIBILITY & LEADERSHIP",
+    "situation": "You’re solving a problem. What do you think about first?",
+    "options": [
+      {
+        "id": "A",
+        "text": "How it affects people",
+        "scores": {
+          "responsibility_and_leadership": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "How people will react",
+        "scores": {
+          "responsibility_and_leadership": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "Fairness",
+        "scores": {
+          "responsibility_and_leadership": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "How the system works",
+        "scores": {
+          "responsibility_and_leadership": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "Efficiency",
+        "scores": {
+          "responsibility_and_leadership": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "Just fixing it",
+        "scores": {
+          "responsibility_and_leadership": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q36",
+    "category": "RESPONSIBILITY & LEADERSHIP",
+    "situation": "You enjoy conversations more when they’re about:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Feelings and experiences",
+        "scores": {
+          "responsibility_and_leadership": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "Helping or supporting",
+        "scores": {
+          "responsibility_and_leadership": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "Real-life situations",
+        "scores": {
+          "responsibility_and_leadership": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Ideas and concepts",
+        "scores": {
+          "responsibility_and_leadership": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "How things work",
+        "scores": {
+          "responsibility_and_leadership": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "You don’t enjoy conversations much",
+        "scores": {
+          "responsibility_and_leadership": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q37",
+    "category": "RESPONSIBILITY & LEADERSHIP",
+    "situation": "You’re asked to help improve something. What excites you more?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Making it better for people",
+        "scores": {
+          "responsibility_and_leadership": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "Making it easier for others",
+        "scores": {
+          "responsibility_and_leadership": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "Improving results",
+        "scores": {
+          "responsibility_and_leadership": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Optimizing the process",
+        "scores": {
+          "responsibility_and_leadership": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "Automating it",
+        "scores": {
+          "responsibility_and_leadership": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "You’re not excited",
+        "scores": {
+          "responsibility_and_leadership": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q38",
+    "category": "RESPONSIBILITY & LEADERSHIP",
+    "situation": "You find something interesting. What happens?",
+    "options": [
+      {
+        "id": "A",
+        "text": "You want to master it",
+        "scores": {
+          "responsibility_and_leadership": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "You go deep for a while",
+        "scores": {
+          "responsibility_and_leadership": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "You learn the basics",
+        "scores": {
+          "responsibility_and_leadership": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "You enjoy it briefly",
+        "scores": {
+          "responsibility_and_leadership": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "You move on quickly",
+        "scores": {
+          "responsibility_and_leadership": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "You rarely stick with things",
+        "scores": {
+          "responsibility_and_leadership": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q39",
+    "category": "RESPONSIBILITY & LEADERSHIP",
+    "situation": "Your ideal learning style is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "One thing, very deeply",
+        "scores": {
+          "responsibility_and_leadership": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "Few things, well",
+        "scores": {
+          "responsibility_and_leadership": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "Balance",
+        "scores": {
+          "responsibility_and_leadership": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Many things lightly",
+        "scores": {
+          "responsibility_and_leadership": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "Constantly changing",
+        "scores": {
+          "responsibility_and_leadership": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "No clear preference",
+        "scores": {
+          "responsibility_and_leadership": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q40",
+    "category": "RESPONSIBILITY & LEADERSHIP",
+    "situation": "You’ve been doing the same thing for a long time. You feel:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Comfortable",
+        "scores": {
+          "responsibility_and_leadership": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "Stable",
+        "scores": {
+          "responsibility_and_leadership": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "Neutral",
+        "scores": {
+          "responsibility_and_leadership": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Slightly bored",
+        "scores": {
+          "responsibility_and_leadership": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "Very bored",
+        "scores": {
+          "responsibility_and_leadership": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "Restless",
+        "scores": {
+          "responsibility_and_leadership": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q41",
+    "category": "CURIOSITY & CONFUSION TOLERANCE",
+    "situation": "You don’t understand something right away. Your reaction is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Curious, you want to figure it out",
+        "scores": {
+          "curiosity_and_confusion_tolerance": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "Slightly frustrated but interested",
+        "scores": {
+          "curiosity_and_confusion_tolerance": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "Neutral",
+        "scores": {
+          "curiosity_and_confusion_tolerance": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Annoyed",
+        "scores": {
+          "curiosity_and_confusion_tolerance": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "Mentally tired",
+        "scores": {
+          "curiosity_and_confusion_tolerance": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "You give up",
+        "scores": {
+          "curiosity_and_confusion_tolerance": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q42",
+    "category": "CURIOSITY & CONFUSION TOLERANCE",
+    "situation": "Progress is slow and unclear. You usually:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Keep going",
+        "scores": {
+          "curiosity_and_confusion_tolerance": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "Take breaks but return",
+        "scores": {
+          "curiosity_and_confusion_tolerance": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "Push if necessary",
+        "scores": {
+          "curiosity_and_confusion_tolerance": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Lose motivation",
+        "scores": {
+          "curiosity_and_confusion_tolerance": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "Avoid it",
+        "scores": {
+          "curiosity_and_confusion_tolerance": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "Quit",
+        "scores": {
+          "curiosity_and_confusion_tolerance": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q43",
+    "category": "CURIOSITY & CONFUSION TOLERANCE",
+    "situation": "You finally understand something complex. You feel:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Very satisfied",
+        "scores": {
+          "curiosity_and_confusion_tolerance": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "Relieved",
+        "scores": {
+          "curiosity_and_confusion_tolerance": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "Neutral",
+        "scores": {
+          "curiosity_and_confusion_tolerance": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "“That took too long”",
+        "scores": {
+          "curiosity_and_confusion_tolerance": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "Still annoyed",
+        "scores": {
+          "curiosity_and_confusion_tolerance": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "You don’t care",
+        "scores": {
+          "curiosity_and_confusion_tolerance": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q44",
+    "category": "CURIOSITY & CONFUSION TOLERANCE",
+    "situation": "You must choose: Calm, meaningful work with lower pay Stressful, boring work with higher pay What do you lean toward?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Definitely calm/meaningful",
+        "scores": {
+          "curiosity_and_confusion_tolerance": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "Mostly calm",
+        "scores": {
+          "curiosity_and_confusion_tolerance": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "Balanced",
+        "scores": {
+          "curiosity_and_confusion_tolerance": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Mostly higher pay",
+        "scores": {
+          "curiosity_and_confusion_tolerance": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "Definitely higher pay",
+        "scores": {
+          "curiosity_and_confusion_tolerance": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "You avoid choosing",
+        "scores": {
+          "curiosity_and_confusion_tolerance": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q45",
+    "category": "CURIOSITY & CONFUSION TOLERANCE",
+    "situation": "You’re offered more money for more pressure. Your reaction is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Not worth it",
+        "scores": {
+          "curiosity_and_confusion_tolerance": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "Only short-term",
+        "scores": {
+          "curiosity_and_confusion_tolerance": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "Depends",
+        "scores": {
+          "curiosity_and_confusion_tolerance": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Worth it long-term",
+        "scores": {
+          "curiosity_and_confusion_tolerance": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "Motivating",
+        "scores": {
+          "curiosity_and_confusion_tolerance": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "You accept immediately",
+        "scores": {
+          "curiosity_and_confusion_tolerance": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q46",
+    "category": "CURIOSITY & CONFUSION TOLERANCE",
+    "situation": "When thinking about the future, what worries you more?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Enjoying what you do",
+        "scores": {
+          "curiosity_and_confusion_tolerance": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "Feeling useful",
+        "scores": {
+          "curiosity_and_confusion_tolerance": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "Stability",
+        "scores": {
+          "curiosity_and_confusion_tolerance": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Making enough money",
+        "scores": {
+          "curiosity_and_confusion_tolerance": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "Maximizing income",
+        "scores": {
+          "curiosity_and_confusion_tolerance": 1
+        }
+      },
+      {
+        "id": "F",
+        "text": "You avoid thinking about it",
+        "scores": {
+          "curiosity_and_confusion_tolerance": 0
+        }
+      }
+    ]
+  }
+]

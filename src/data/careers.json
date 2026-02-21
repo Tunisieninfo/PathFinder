@@ -1,0 +1,47 @@
+[
+  {
+    "id": "c1",
+    "title": "Software Engineer",
+    "description": "Build and maintain software systems. Requires deep focus, logical thinking, and high stress tolerance for deadlines.",
+    "salary_range": "$80k - $160k",
+    "advantages": ["High salary", "Remote work options", "Creative problem solving"],
+    "disadvantages": ["Sedentary", "High stress", "Constant learning required"],
+    "profile_match": {
+      "discipline_and_time_management": 4,
+      "logic_vs_intuition": 4,
+      "curiosity_and_confusion_tolerance": 5,
+      "depth_vs_variety": 4,
+      "people_vs_systems": 1,
+      "expression_vs_optimization": 4
+    }
+  },
+  {
+    "id": "c2",
+    "title": "Product Manager",
+    "description": "Guide the success of a product and lead the cross-functional team that is responsible for improving it. Requires great adaptability and leadership.",
+    "salary_range": "$90k - $150k",
+    "advantages": ["Influence product direction", "High interaction", "Dynamic daily tasks"],
+    "disadvantages": ["Lots of meetings", "High responsibility without direct authority", "Stressful deadlines"],
+    "profile_match": {
+      "adaptability_and_control": 5,
+      "responsibility_and_leadership": 5,
+      "social_energy": 4,
+      "people_vs_systems": 4,
+      "logic_vs_intuition": 3
+    }
+  },
+  {
+    "id": "c3",
+    "title": "Graphic Designer",
+    "description": "Create visual concepts to communicate ideas that inspire, inform, and captivate consumers.",
+    "salary_range": "$50k - $90k",
+    "advantages": ["Creative freedom", "Visual impact", "Varied projects"],
+    "disadvantages": ["Client feedback can be subjective", "Tight deadlines", "Lower starting salary"],
+    "profile_match": {
+      "expression_vs_optimization": 2,
+      "sensory_vs_abstract": 5,
+      "logic_vs_intuition": 2,
+      "structure_vs_freedom": 1
+    }
+  }
+]
