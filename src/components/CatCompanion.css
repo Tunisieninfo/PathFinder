@@ -1,0 +1,149 @@
+.cat-wrapper {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+}
+
+.cat-svg {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* Base Floating Animation */
+.cat-wrapper.idle .cat-svg {
+    animation: float 3s ease-in-out infinite;
+}
+
+.cat-wrapper.idle .cat-shadow {
+    animation: shadowPulse 3s ease-in-out infinite;
+}
+
+/* Happy State */
+.cat-wrapper.happy .cat-svg {
+    animation: jump 0.6s ease-in-out infinite;
+    transform: scale(1.1);
+}
+
+.cat-wrapper.happy .eye {
+    animation: squint 0.3s forwards;
+}
+
+.cat-wrapper.happy .cat-tail {
+    animation: wag 0.4s ease-in-out infinite;
+    transform-origin: 140px 140px;
+}
+
+/* Thinking State */
+.cat-wrapper.thinking .cat-head {
+    animation: tilt 2s ease-in-out infinite;
+}
+
+.cat-wrapper.thinking .cat-face {
+    animation: lookAround 4s ease-in-out infinite;
+}
+
+.cat-wrapper.thinking .thinking-bubbles {
+    animation: fadeIn 0.5s ease-out forwards;
+}
+
+/* Keyframes */
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0) rotate(0);
+    }
+
+    50% {
+        transform: translateY(-10px) rotate(2deg);
+    }
+}
+
+@keyframes shadowPulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 0.1;
+    }
+
+    50% {
+        transform: scale(0.8);
+        opacity: 0.05;
+    }
+}
+
+@keyframes jump {
+
+    0%,
+    100% {
+        transform: translateY(0) scale(1.1);
+    }
+
+    50% {
+        transform: translateY(-15px) scale(1.1);
+    }
+}
+
+@keyframes wag {
+
+    0%,
+    100% {
+        transform: rotate(0);
+    }
+
+    50% {
+        transform: rotate(20deg);
+    }
+}
+
+@keyframes tilt {
+
+    0%,
+    100% {
+        transform: rotate(0);
+    }
+
+    50% {
+        transform: rotate(-5deg);
+        transform-origin: center;
+    }
+}
+
+@keyframes lookAround {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(3px);
+    }
+
+    75% {
+        transform: translateX(-3px);
+    }
+}
+
+@keyframes squint {
+    to {
+        transform: scaleY(0.2);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
