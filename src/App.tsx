@@ -45,7 +45,7 @@ function App() {
 
   const finishQuiz = (finalAnswers: Scores[]) => {
     setStep('loading')
-    
+
     // Calculate total scores
     const totals: Scores = {}
     finalAnswers.forEach(ans => {
@@ -65,7 +65,7 @@ function App() {
   const calculateMatches = (userScores: Scores) => {
     // We log it so TS doesn't complain about unused userScores
     console.log("Calculated internal scores:", userScores, finalScores)
-    
+
     // Simple matching algorithm: sort careers by abstract match
     const matched = [...careersData].sort(() => Math.random() - 0.5).slice(0, 3)
     setMatchedCareers(matched)
@@ -82,8 +82,7 @@ function App() {
           </div>
           <h1 className="title">PathFinder Assessment</h1>
           <p className="subtitle" style={{ maxWidth: '90%', margin: '0 auto 2.5rem' }}>
-            Discover a career path based on your real behaviors, stress tolerance, and true interests.
-            No more "What do you want to be?" questions.
+            A smarter way to choose your path.
           </p>
           <button className="btn" onClick={handleStart} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem', margin: '0 auto', maxWidth: '300px' }}>
             <Sparkles size={20} />
@@ -93,35 +92,35 @@ function App() {
       )}
 
       {step === 'quiz' && (
-        <div className="glass-card fade-in" key={`q - ${ currentQIndex } `}>
+        <div className="glass-card fade-in" key={`q - ${currentQIndex} `}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
-             <button onClick={handleBack} style={{ background: 'none', border: 'none', cursor: 'pointer', padding: '0.5rem', display: 'flex', alignItems: 'center', color: '#6b5b95' }}>
-               <ArrowLeft size={24} />
-             </button>
-             <div style={{ fontWeight: 600, color: '#9333ea', fontSize: '0.9rem' }}>
-               {currentQIndex + 1} / {questions.length}
-             </div>
+            <button onClick={handleBack} style={{ background: 'none', border: 'none', cursor: 'pointer', padding: '0.5rem', display: 'flex', alignItems: 'center', color: '#6b5b95' }}>
+              <ArrowLeft size={24} />
+            </button>
+            <div style={{ fontWeight: 600, color: '#9333ea', fontSize: '0.9rem' }}>
+              {currentQIndex + 1} / {questions.length}
+            </div>
           </div>
 
           <div className="progress-container">
-            <div 
-              className="progress-bar" 
-              style={{ width: `${ ((currentQIndex + 1) / questions.length) * 100 }% ` }}
+            <div
+              className="progress-bar"
+              style={{ width: `${((currentQIndex + 1) / questions.length) * 100}% ` }}
             ></div>
           </div>
-          
+
           <div className="category-tag">
             {questions[currentQIndex].category}
           </div>
-          
+
           <h2 className="question-text">
             {questions[currentQIndex].situation}
           </h2>
-          
+
           <div className="options-grid">
             {questions[currentQIndex].options.map((opt: any) => (
-              <button 
-                key={opt.id} 
+              <button
+                key={opt.id}
                 className="option-btn"
                 onClick={() => handleAnswer(opt.scores)}
                 style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}
@@ -145,11 +144,11 @@ function App() {
       {step === 'results' && (
         <div className="glass-card fade-in">
           <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', justifyContent: 'center', marginBottom: '1rem' }}>
-             <CheckCircle2 color="#10b981" size={32} />
-             <h2 className="title" style={{ margin: 0 }}>Your Best Matches</h2>
+            <CheckCircle2 color="#10b981" size={32} />
+            <h2 className="title" style={{ margin: 0 }}>Your Best Matches</h2>
           </div>
           <p className="subtitle">Based on your answers, these paths fit your actual work style.</p>
-          
+
           <div className="careers-list" style={{ marginTop: '2rem' }}>
             {matchedCareers.map(career => (
               <div key={career.id} className="career-card">
@@ -164,10 +163,10 @@ function App() {
 
                 <div className="tag-list">
                   {career.advantages.map((adv: string) => (
-                    <span key={`adv - ${ adv } `} className="tag tag-pro">✓ {adv}</span>
+                    <span key={`adv - ${adv} `} className="tag tag-pro">✓ {adv}</span>
                   ))}
                   {career.disadvantages.map((dis: string) => (
-                    <span key={`dis - ${ dis } `} className="tag tag-con">✕ {dis}</span>
+                    <span key={`dis - ${dis} `} className="tag tag-con">✕ {dis}</span>
                   ))}
                 </div>
               </div>
