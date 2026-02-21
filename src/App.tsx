@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Sparkles, ArrowLeft, Briefcase, CheckCircle2, ChevronRight, Compass } from 'lucide-react'
+import { CatCompanion } from './components/CatCompanion'
 import questionsData from './data/questions.json'
 import careersData from './data/careers.json'
 import './index.css'
@@ -12,6 +13,7 @@ function App() {
   const [answers, setAnswers] = useState<Scores[]>([])
   const [finalScores, setFinalScores] = useState<Scores>({})
   const [matchedCareers, setMatchedCareers] = useState<any[]>([])
+  const [catAction, setCatAction] = useState<'idle' | 'happy' | 'thinking'>('idle')
 
   const questions = questionsData as any[]
 
@@ -20,19 +22,26 @@ function App() {
     setStep('quiz')
     setCurrentQIndex(0)
     setAnswers([])
+    setCatAction('thinking')
   }
 
   // Handle answer selection
   const handleAnswer = (scores: Scores) => {
-    const newAnswers = [...answers]
-    newAnswers[currentQIndex] = scores
-    setAnswers(newAnswers)
+    setCatAction('happy')
 
-    if (currentQIndex < questions.length - 1) {
-      setCurrentQIndex(currentQIndex + 1)
-    } else {
-      finishQuiz(newAnswers)
-    }
+    // Tiny delay to show happy cat before moving or loading
+    setTimeout(() => {
+      const newAnswers = [...answers]
+      newAnswers[currentQIndex] = scores
+      setAnswers(newAnswers)
+
+      if (currentQIndex < questions.length - 1) {
+        setCurrentQIndex(currentQIndex + 1)
+        setCatAction('thinking')
+      } else {
+        finishQuiz(newAnswers)
+      }
+    }, 600)
   }
 
   const handleBack = () => {
@@ -40,11 +49,13 @@ function App() {
       setCurrentQIndex(currentQIndex - 1)
     } else {
       setStep('welcome')
+      setCatAction('idle')
     }
   }
 
   const finishQuiz = (finalAnswers: Scores[]) => {
     setStep('loading')
+    setCatAction('thinking')
 
     // Calculate total scores
     const totals: Scores = {}
@@ -59,6 +70,7 @@ function App() {
     setTimeout(() => {
       calculateMatches(totals)
       setStep('results')
+      setCatAction('happy')
     }, 2000)
   }
 
@@ -75,6 +87,9 @@ function App() {
     <div className="app-container">
       {step === 'welcome' && (
         <div className="glass-card fade-in" style={{ textAlign: 'center' }}>
+          <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '0.5rem' }}>
+            <CatCompanion action={catAction} />
+          </div>
           <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '1.5rem' }}>
             <div style={{ backgroundColor: 'rgba(147, 51, 234, 0.1)', padding: '1rem', borderRadius: '50%' }}>
               <Compass size={48} color="#9333ea" />
@@ -92,11 +107,14 @@ function App() {
       )}
 
       {step === 'quiz' && (
-        <div className="glass-card fade-in" key={`q - ${currentQIndex} `}>
+        <div className="glass-card fade-in" key={`q-${currentQIndex}`}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
             <button onClick={handleBack} style={{ background: 'none', border: 'none', cursor: 'pointer', padding: '0.5rem', display: 'flex', alignItems: 'center', color: '#6b5b95' }}>
               <ArrowLeft size={24} />
             </button>
+            <div style={{ position: 'absolute', top: '-60px', left: '50%', transform: 'translateX(-50%)' }}>
+              <CatCompanion action={catAction} />
+            </div>
             <div style={{ fontWeight: 600, color: '#9333ea', fontSize: '0.9rem' }}>
               {currentQIndex + 1} / {questions.length}
             </div>
@@ -105,7 +123,7 @@ function App() {
           <div className="progress-container">
             <div
               className="progress-bar"
-              style={{ width: `${((currentQIndex + 1) / questions.length) * 100}% ` }}
+              style={{ width: `${((currentQIndex + 1) / questions.length) * 100}%` }}
             ></div>
           </div>
 
@@ -135,6 +153,9 @@ function App() {
 
       {step === 'loading' && (
         <div className="glass-card fade-in" style={{ textAlign: 'center', padding: '4rem 2rem' }}>
+          <div style={{ marginBottom: '2rem' }}>
+            <CatCompanion action="thinking" />
+          </div>
           <div className="spinner"></div>
           <h2 className="title" style={{ fontSize: '1.8rem', color: '#9333ea' }}>Analyzing Profile</h2>
           <p className="subtitle">Calculating behavioral vectors and scanning for perfect career combinations...</p>
@@ -143,6 +164,9 @@ function App() {
 
       {step === 'results' && (
         <div className="glass-card fade-in">
+          <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '1rem' }}>
+            <CatCompanion action="happy" />
+          </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', justifyContent: 'center', marginBottom: '1rem' }}>
             <CheckCircle2 color="#10b981" size={32} />
             <h2 className="title" style={{ margin: 0 }}>Your Best Matches</h2>
@@ -163,17 +187,17 @@ function App() {
 
                 <div className="tag-list">
                   {career.advantages.map((adv: string) => (
-                    <span key={`adv - ${adv} `} className="tag tag-pro">✓ {adv}</span>
+                    <span key={`adv-${adv}`} className="tag tag-pro">✓ {adv}</span>
                   ))}
                   {career.disadvantages.map((dis: string) => (
-                    <span key={`dis - ${dis} `} className="tag tag-con">✕ {dis}</span>
+                    <span key={`dis-${dis}`} className="tag tag-con">✕ {dis}</span>
                   ))}
                 </div>
               </div>
             ))}
           </div>
 
-          <button className="btn" onClick={() => setStep('welcome')} style={{ marginTop: '2.5rem' }}>
+          <button className="btn" onClick={() => { setStep('welcome'); setCatAction('idle'); }} style={{ marginTop: '2.5rem' }}>
             Retake Assessment
           </button>
         </div>
@@ -181,5 +205,6 @@ function App() {
     </div>
   )
 }
+
 
 export default App
