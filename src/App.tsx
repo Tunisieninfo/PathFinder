@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Sparkles, ArrowLeft, Briefcase, CheckCircle2, ChevronRight, Compass } from 'lucide-react'
 import { CatCompanion } from './components/CatCompanion'
 import questionsData from './data/questions.json'
@@ -83,23 +83,28 @@ function App() {
     setMatchedCareers(matched)
   }
 
+  useEffect(() => {
+    const el = document.getElementById('progress-bar-fill');
+    if (el) el.style.width = `${((currentQIndex + 1) / questions.length) * 100}%`;
+  }, [currentQIndex, questions.length]);
+
   return (
     <div className="app-container">
       {step === 'welcome' && (
-        <div className="glass-card fade-in" style={{ textAlign: 'center' }}>
-          <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '0.5rem' }}>
+        <div className="glass-card fade-in text-center">
+          <div className="flex-justify-center mb-0-5">
             <CatCompanion action={catAction} />
           </div>
-          <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '1.5rem' }}>
-            <div style={{ backgroundColor: 'rgba(147, 51, 234, 0.1)', padding: '1rem', borderRadius: '50%' }}>
+          <div className="flex-justify-center mb-1-5">
+            <div className="icon-container">
               <Compass size={48} color="#9333ea" />
             </div>
           </div>
           <h1 className="title">PathFinder Assessment</h1>
-          <p className="subtitle" style={{ maxWidth: '90%', margin: '0 auto 2.5rem' }}>
+          <p className="subtitle max-w-90 mx-auto mb-2-5">
             A smarter way to choose your path.
           </p>
-          <button className="btn" onClick={handleStart} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem', margin: '0 auto', maxWidth: '300px' }}>
+          <button className="btn flex-center gap-0-5 mx-auto max-w-300" onClick={handleStart}>
             <Sparkles size={20} />
             Start Assessment
           </button>
@@ -108,22 +113,22 @@ function App() {
 
       {step === 'quiz' && (
         <div className="glass-card fade-in" key={`q-${currentQIndex}`}>
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
-            <button onClick={handleBack} style={{ background: 'none', border: 'none', cursor: 'pointer', padding: '0.5rem', display: 'flex', alignItems: 'center', color: '#6b5b95' }}>
+          <div className="flex-between mb-1">
+            <button onClick={handleBack} className="back-btn" title="Go Back">
               <ArrowLeft size={24} />
             </button>
-            <div style={{ position: 'absolute', top: '-60px', left: '50%', transform: 'translateX(-50%)' }}>
+            <div className="cat-container-absolute">
               <CatCompanion action={catAction} />
             </div>
-            <div style={{ fontWeight: 600, color: '#9333ea', fontSize: '0.9rem' }}>
+            <div className="question-counter">
               {currentQIndex + 1} / {questions.length}
             </div>
           </div>
 
           <div className="progress-container">
             <div
+              id="progress-bar-fill"
               className="progress-bar"
-              style={{ width: `${((currentQIndex + 1) / questions.length) * 100}%` }}
             ></div>
           </div>
 
@@ -139,9 +144,8 @@ function App() {
             {questions[currentQIndex].options.map((opt: any) => (
               <button
                 key={opt.id}
-                className="option-btn"
+                className="option-btn flex-between"
                 onClick={() => handleAnswer(opt.scores)}
-                style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}
               >
                 <span>{opt.text}</span>
                 <ChevronRight size={20} color="#9333ea" opacity={0.5} />
@@ -152,32 +156,32 @@ function App() {
       )}
 
       {step === 'loading' && (
-        <div className="glass-card fade-in" style={{ textAlign: 'center', padding: '4rem 2rem' }}>
-          <div style={{ marginBottom: '2rem' }}>
+        <div className="glass-card fade-in loading-card">
+          <div className="mb-2">
             <CatCompanion action="thinking" />
           </div>
           <div className="spinner"></div>
-          <h2 className="title" style={{ fontSize: '1.8rem', color: '#9333ea' }}>Analyzing Profile</h2>
+          <h2 className="title analyzing-title">Analyzing Profile</h2>
           <p className="subtitle">Calculating behavioral vectors and scanning for perfect career combinations...</p>
         </div>
       )}
 
       {step === 'results' && (
         <div className="glass-card fade-in">
-          <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '1rem' }}>
+          <div className="flex-justify-center mb-1">
             <CatCompanion action="happy" />
           </div>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', justifyContent: 'center', marginBottom: '1rem' }}>
+          <div className="flex-center gap-1 mb-1">
             <CheckCircle2 color="#10b981" size={32} />
-            <h2 className="title" style={{ margin: 0 }}>Your Best Matches</h2>
+            <h2 className="title m-0">Your Best Matches</h2>
           </div>
           <p className="subtitle">Based on your answers, these paths fit your actual work style.</p>
 
-          <div className="careers-list" style={{ marginTop: '2rem' }}>
+          <div className="careers-list mt-2">
             {matchedCareers.map(career => (
               <div key={career.id} className="career-card">
                 <div className="career-title">
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                  <div className="flex-align-center gap-0-5">
                     <Briefcase size={20} color="#9333ea" />
                     {career.title}
                   </div>
@@ -197,7 +201,7 @@ function App() {
             ))}
           </div>
 
-          <button className="btn" onClick={() => { setStep('welcome'); setCatAction('idle'); }} style={{ marginTop: '2.5rem' }}>
+          <button className="btn mt-2-5" onClick={() => { setStep('welcome'); setCatAction('idle'); }}>
             Retake Assessment
           </button>
         </div>
